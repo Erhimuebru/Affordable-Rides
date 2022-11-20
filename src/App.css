@@ -388,7 +388,7 @@ padding-bottom: 5rem;
 
 
 
-@media screen and (max-width: 900px)and (max-width: 768px) and (max-width: 600px) and (min-width: 320px){
+@media screen and (max-width: 900px)and (max-width: 768px) and (max-width: 600px) and (min-width: 220px){
   .nav-links {
     display: grid;
     overflow: hidden;
@@ -397,18 +397,27 @@ padding-bottom: 5rem;
 
   .links{
     overflow: hidden;
-    font-size: 1rem;
+    font-size: .5rem;
+  }
+
+  .nav-btn{
+    font-size: .5rem;
   }
 
 }
 
-@media screen and (max-width: 900px) and (min-width: 320px) and (max-width: 768px) and (max-width: 600px){
+@media screen and (max-width: 900px) and (min-width: 220px) and (max-width: 768px) and (max-width: 600px){
   .container{
     display: block;
 
   }
   .svg-container{
 display: block;
+align-items: center;
+justify-content: center;
+justify-items: center;
+align-content: center;
+padding-right: 7rem;
   }
   .pick-container{
     display: block;
